@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Emad, spelled like e-amd
+- 👋 Hi, I’m Emad, spelled like e-mad
 - 👀 I’m interested in frontend web technologies and making cool functional and scalable components for awesome UI/UX.
      Prior to that, I have had 15 years of experience in the customer relations field as a customer experience manager, soft-skills trainer and quality coaching. 
 - 🌱 I’m currently learning more of JavaScript tricks "because with great power comes great responsibility" , React libraries, NodeJS & Express.
