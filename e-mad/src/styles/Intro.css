@@ -1,0 +1,83 @@
+.intro {
+  padding: 2em 3em;
+  position: relative;
+  background-color: var(--sec-gry-light);
+  width: min-content;
+  max-width: 62.5rem;
+  margin: 4rem auto;
+  text-align: center;
+  position: relative;
+  background-image: url("../assets/topography.svg");
+}
+.section__title {
+}
+.section__title--intro {
+  animation: moveInRight 1s ease-out;
+  backface-visibility: hidden;
+}
+.section__title--intro span {
+  display: block;
+}
+.intro__img {
+  /* box-shadow: var(--bs); */
+  /* margin-top: 1.5em; */
+  animation: moveInLeft 1s ease-out;
+  backface-visibility: hidden;
+}
+.section__subtitle--intro {
+  /* outline: 3px solid red; */
+  margin-top: 0.5em;
+  padding: 1em;
+  text-align: center;
+  animation: moveInRight 1s ease-out;
+  backface-visibility: hidden;
+}
+.section__subtitle--intro--2 {
+  background: var(--prim-dark);
+  color: var(--prim-white);
+  width: max-content;
+  margin-left: auto;
+  padding: 0.25em 0.5em;
+}
+@media (min-width: 600px) {
+  .intro {
+    display: grid;
+    width: min-content;
+    grid-column-gap: 1em;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+    padding: 2em 4em;
+  }
+  .section__title--intro {
+    line-height: 1.3;
+    margin-top: 2rem;
+  }
+  .intro__img {
+    grid-area: img;
+    min-width: 300px;
+    position: relative;
+    top: 3em;
+    /* left: -1.75em; */
+    z-index: 2;
+  }
+  .section__subtitle--intro {
+    align-self: start;
+    grid-column: -1/1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    /* left: -2.25em; */
+    width: 100%;
+    box-shadow: var(--bs);
+    padding-right: 1em;
+    margin: 1em auto;
+    /* outline: 3px solid red; */
+  }
+
+  .section__title--intro span {
+    position: relative;
+    /* left: -3em; */
+  }
+}

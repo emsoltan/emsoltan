@@ -1,0 +1,31 @@
+footer {
+  background-color: var(--prim-dark);
+  color: var(--prim-white);
+  text-align: center;
+  padding: 1.5em 0;
+
+  font-size: 2em;
+}
+.footer a {
+    padding: 0 .5em;
+  transition: all .4s ease-in-out;
+  border-radius: .1em;
+}
+.footer a:hover {
+  color: var(--prim-dark);
+  background-color: var(--prim-white);
+  outline: 2px solid var(--prim-white);
+  outline-offset: .15em;
+  font-weight: var(--fw-bold);
+}
+.social-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+
+.footer p {
+    font-size: 1.5rem;
+}
