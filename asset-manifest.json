@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.a99f9247.css",
+    "main.js": "/react-gh-pages/static/js/main.f9963239.js",
+    "static/media/topography.svg": "/react-gh-pages/static/media/topography.e73416fd5daff551f359.svg",
+    "static/media/dummy.svg": "/react-gh-pages/static/media/dummy.1f099c1d9817d0d4e25ab11a8cab70c3.svg",
+    "static/media/intro-pic.svg": "/react-gh-pages/static/media/intro-pic.96b7638edc2e8a8e6d63fc04bd77be1b.svg",
+    "static/media/e-mad-logo-final.svg": "/react-gh-pages/static/media/e-mad-logo-final.ffda0944296719971a248b05093f82b0.svg",
+    "static/media/emad-logo2.svg": "/react-gh-pages/static/media/emad-logo2.7c63399e8ba13659ee27a27056b1fc16.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.a99f9247.css.map": "/react-gh-pages/static/css/main.a99f9247.css.map",
+    "main.f9963239.js.map": "/react-gh-pages/static/js/main.f9963239.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a99f9247.css",
+    "static/js/main.f9963239.js"
+  ]
+}
